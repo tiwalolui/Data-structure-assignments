@@ -1,0 +1,19 @@
+
+my_list = [42, 17, 89, 5]
+print("Original list:", my_list)
+
+
+my_list.insert(2, 50)
+print("After insert(2, 50):", my_list)
+
+
+my_list.sort()
+print("After sort():", my_list)
+
+
+popped_item = my_list.pop()
+print(f"After pop() (removed {popped_item}):", my_list)
+
+
+my_list.remove(17)
+print("After deleting 17:", my_list)
